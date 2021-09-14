@@ -5,10 +5,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NgxMaskModule } from 'ngx-mask';
 
 import { AppComponent } from './app.component';
+import { MessageComponent } from './message.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,

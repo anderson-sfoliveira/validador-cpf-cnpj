@@ -1,12 +1,12 @@
 <form autocomplete="off" [formGroup]="formulario">
 
-  <input placeholder="Informe seu CPF ou CNPJ" type="text" name="cnpjcpf" formControlName="cnpjcpf"
+  <input class="text-input" placeholder="Informe o CPF ou CNPJ" type="text" name="cnpjcpf" formControlName="cnpjcpf"
     (ngModelChange)="mudartipo()" mask="CPF_CNPJ" [validation]="false"/>
-  <!-- 
+  
        
     <app-message [control]="formulario.get('cnpjcpf')" error="required" text="Campo obrigatório">
     </app-message>
-
+<!-- 
     <app-message [control]="formulario.get('cnpjcpf')" error="erroTipoPessoa" text="inválido">
     </app-message>
 
