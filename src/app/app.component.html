@@ -1,0 +1,16 @@
+<form autocomplete="off" [formGroup]="formulario">
+
+  <input placeholder="Informe seu CPF ou CNPJ" type="text" name="cnpjcpf" formControlName="cnpjcpf"
+    (ngModelChange)="mudartipo()" mask="CPF_CNPJ" [validation]="false"/>
+  <!-- 
+       
+    <app-message [control]="formulario.get('cnpjcpf')" error="required" text="Campo obrigatório">
+    </app-message>
+
+    <app-message [control]="formulario.get('cnpjcpf')" error="erroTipoPessoa" text="inválido">
+    </app-message>
+
+    <app-message [control]="formulario.get('cnpjcpf')" error="duplicidadeRegistro"
+      text="{{ formulario.get('tipo').value === 'FISICA' ? 'C.P.F.' : 'C.N.P.J.' }} já cadastrado">
+    </app-message> -->
+</form>

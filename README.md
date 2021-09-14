@@ -1,4 +1,4 @@
-# Validador de CPF e CNPJ
+# Validador e formatador de CPF e CNPJ
 
 Este projeto foi desenvolvido com Angular CLI versão 11.0.5 junto com os plugins "ngx-mask" e "cpf-cnpj-validator".
 
